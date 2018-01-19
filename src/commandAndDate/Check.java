@@ -9,9 +9,10 @@ public class Check {
 
 	public Check(String string) {
 
-		String pattern = "";
+		String pattern = "[0-9][0-9]";
+				
 
-		isMatch = Pattern.matches(pattern, string);
+			isMatch = Pattern.matches(pattern, string);
  
 		
 	
